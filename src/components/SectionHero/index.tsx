@@ -6,7 +6,7 @@ import * as S from './styles'
 
 import { gaEvent } from 'utils/ga'
 import Container from 'components/Container'
-import { LogoProps, HeaderProps } from 'types/api'
+import { HeaderProps, LogoProps } from 'types/api'
 import { getImageUrl } from 'utils/getImageUrl'
 
 const onClick = () =>
@@ -27,17 +27,8 @@ const SectionHero = ({ logo, header }: Props) => (
           <S.Title>{header.title}</S.Title>
           <S.Description>{header.description}</S.Description>
           <S.ButtonWrapper>
-<<<<<<< HEAD
             <Button href={header.button.url} onClick={onClick} wide>
               {header.button.label}
-=======
-            <Button
-              href="https://www.udemy.com/course/react-avancado/?couponCode=BESTSELLER"
-              onClick={onClick}
-              wide
-            >
-              Comprar
->>>>>>> 531f95fc3892fdfbd04297f14de82ca120484702
             </Button>
           </S.ButtonWrapper>
         </S.TextBlock>

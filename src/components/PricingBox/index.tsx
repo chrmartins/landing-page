@@ -29,30 +29,8 @@ const PricingBox = ({
       dangerouslySetInnerHTML={{ __html: benefits }}
     ></S.BenefitsList>
 
-<<<<<<< HEAD
     <Button href={button.url} onClick={onClick} withPrice>
       <p>{button.label}</p>
-=======
-      <S.BenefitsItem>
-        Código de <strong>todo o projeto</strong> separado em commits
-      </S.BenefitsItem>
-
-      <S.BenefitsItem>
-        Contato <strong>direto</strong> com os instrutores via Slack
-      </S.BenefitsItem>
-
-      <S.BenefitsItem>
-        <strong>Lives exclusivas</strong> durante o curso
-      </S.BenefitsItem>
-    </S.BenefitsList>
-
-    <Button
-      href="https://www.udemy.com/course/react-avancado/?couponCode=BESTSELLER"
-      onClick={onClick}
-      withPrice
-    >
-      <p>Comprar o curso</p>
->>>>>>> 531f95fc3892fdfbd04297f14de82ca120484702
       <div>
         <S.ButtonFullPrice>R$ {totalPrice}</S.ButtonFullPrice>
         <S.ButtonDiscountPrice>
